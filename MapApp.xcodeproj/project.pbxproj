@@ -30,11 +30,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		15AA3FF12E0152A00077A5E6 /* MapApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MapApp;
-			sourceTree = "<group>";
-		};
 		15AA40022E0152A30077A5E6 /* MapAppTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = MapAppTests;
@@ -43,6 +38,11 @@
 		15AA400C2E0152A30077A5E6 /* MapAppUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = MapAppUITests;
+			sourceTree = "<group>";
+		};
+		15AA40302E015B900077A5E6 /* MapApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MapApp;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,7 +75,7 @@
 		15AA3FE62E0152A00077A5E6 = {
 			isa = PBXGroup;
 			children = (
-				15AA3FF12E0152A00077A5E6 /* MapApp */,
+				15AA40302E015B900077A5E6 /* MapApp */,
 				15AA40022E0152A30077A5E6 /* MapAppTests */,
 				15AA400C2E0152A30077A5E6 /* MapAppUITests */,
 				15AA3FF02E0152A00077A5E6 /* Products */,
@@ -108,7 +108,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				15AA3FF12E0152A00077A5E6 /* MapApp */,
+				15AA40302E015B900077A5E6 /* MapApp */,
 			);
 			name = MapApp;
 			packageProductDependencies = (
@@ -399,6 +399,8 @@
 				DEVELOPMENT_TEAM = 2T8B7ZJJ7U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Map App";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +430,8 @@
 				DEVELOPMENT_TEAM = 2T8B7ZJJ7U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Map App";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
