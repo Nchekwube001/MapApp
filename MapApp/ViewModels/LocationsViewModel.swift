@@ -22,10 +22,10 @@ class LocationsViewModel:ObservableObject{
     @Published var mapRegion : MKCoordinateRegion = MKCoordinateRegion()
     let mapSpan = MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1)
     init() {
-        let locations = LocationsDataService.locations
-        self.locations = locations
-        self.mapLocation = locations.first!
-        self.updateMapRegion(location: locations.first!)
+        let locationsData = LocationsDataService.locations
+        self.locations = locationsData
+        self.mapLocation = locationsData.first!
+        self.updateMapRegion(location: locationsData.first!)
     }
     
     private func updateMapRegion (location:Location){
